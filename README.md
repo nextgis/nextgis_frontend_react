@@ -1,1 +1,1 @@
-# nextgis_frontend_react
+# NextGIS Frontend React

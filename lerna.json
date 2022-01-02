@@ -1,0 +1,17 @@
+{
+  "packages": ["packages/*"],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "1.11.2",
+  "command": {
+    "version": {
+      "message": "chore(release): publish %s"
+    },
+    "run": {
+      "ignore": []
+    },
+    "publish": {
+      "ignoreChanges": []
+    }
+  }
+}

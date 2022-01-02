@@ -1,0 +1,48 @@
+{
+  "name": "@nextgis/react-ngw-map",
+  "version": "1.11.2",
+  "description": "",
+  "main": "index.js",
+  "module": "lib/vue-ngw-map.esm-bundler.js",
+  "#types": "lib/index.d.ts",
+  "dependencies": {
+    "@nextgis/ngw-map": "^1.11.2",
+    "@nextgis/utils": "^1.11.0"
+  },
+  "devDependencies": {
+    "@nextgis/build-tools": "^1.11.0"
+  },
+  "buildOptions": {
+    "name": "ReactNgwMap",
+    "formats": [
+      "esm-bundler"
+    ]
+  },
+  "scripts": {
+    "clean": "rimraf ./lib",
+    "dev": "node ../build-tools/lib/build.js",
+    "prod": "npm run dev -- --release",
+    "lint": "eslint ./src/**/*.ts --fix --c ../../.eslintrc",
+    "watch": "npm run dev -- --watch"
+  },
+  "keywords": [
+    "NextGIS",
+    "MAP",
+    "react"
+  ],
+  "author": "NextGIS",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nextgis/nextgis_frontend_react/tree/master/packages/react-ngw-map#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextgis/nextgis_frontend_react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nextgis/nextgis_frontend_react/issues"
+  },
+  "gitHead": "edc68033f914f6c95c4125b9738bba6d36e990b4"
+}
